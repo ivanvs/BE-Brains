@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T5-P1-4", "T5-P1-4\T5-P1-4.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tour_of_hereos", "tour_of_hereos\tour_of_hereos.csproj", "{6FED128E-8851-40CE-8077-1866EC543065}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T5-P2-1", "T5-P2-1\T5-P2-1.csproj", "{F668B9CF-957F-4248-963E-069E55837A5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{6FED128E-8851-40CE-8077-1866EC543065}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FED128E-8851-40CE-8077-1866EC543065}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FED128E-8851-40CE-8077-1866EC543065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F668B9CF-957F-4248-963E-069E55837A5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F668B9CF-957F-4248-963E-069E55837A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F668B9CF-957F-4248-963E-069E55837A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F668B9CF-957F-4248-963E-069E55837A5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
