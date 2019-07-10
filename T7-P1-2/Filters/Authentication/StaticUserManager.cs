@@ -13,7 +13,7 @@ namespace T7_P1_2.Filters.Authentication
         {
             using (UnitOfWork db = new UnitOfWork())
             {
-                var foundUser = db.UserRepository.Get(x => x.Email == user && x.Password == pass).FirstOrDefault();
+                var foundUser = db.UserRepository.Get(x => x.Email == user && x.Password == pass, null, "Role").FirstOrDefault();
                 if (foundUser != null)
                 {
                     return new StaticUser(user, new string[] { foundUser?.Role.Name });
